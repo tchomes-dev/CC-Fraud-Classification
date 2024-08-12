@@ -7,7 +7,7 @@ From Machine Learning Group of Universite Libre de Bruxelles, the next dataset p
 
 ![fraud_data](https://github.com/user-attachments/assets/86a0f832-84ca-42c8-8185-67f367c4c515)
 
-Fig. 3. Genuine vs. Fraudulent Transactions
+*Fig. 3. Genuine vs. Fraudulent Transactions*
 
 B. Classification Modeling with an Imbalanced Dataset
 and its Effects
@@ -33,8 +33,8 @@ transaction which was indeed genuine.
 
 ![confusion_matrix_imbalanced](https://github.com/user-attachments/assets/5783e9da-4a31-4d5c-adaa-9c3ecec3c9ec)
 
-Fig. 4. Confusion Matrix of a Logistic Regression Model with
-Imbalanced Data
+*Fig. 4. Confusion Matrix of a Logistic Regression Model with Imbalanced Data*
+
 TABLE I
 Evaluation of Logistic Regression Model Before SMOT
 Accuracy: 0.99927
@@ -66,7 +66,7 @@ become equal as shown in Figure 5 below.
 
 ![fraud_data_balanced](https://github.com/user-attachments/assets/fb4d5ff7-b639-423a-9542-05acc7eac75d)
 
-Fig. 5. Balanced Data After Using SMOTE
+*Fig. 5. Balanced Data After Using SMOTE*
 
 D. Confusion Matrix After Balancing Dataset
 Applying a balanced dataset, we can ensure there
@@ -78,7 +78,7 @@ but worse False Positive Negatives.
 
 ![confusion_matrix_log_balanced](https://github.com/user-attachments/assets/86e23f57-24a3-4048-bd58-2bda77e3d886)
 
-Fig. 6. Confusion Matrix of a Logistic Regression Model After Using SMOTE on the Dataset
+*Fig. 6. Confusion Matrix of a Logistic Regression Model After Using SMOTE on the Dataset*
 
 TABLE II
 Evaluation of Logistic Regression Model After SMOT
@@ -105,8 +105,7 @@ significantly lower False Positive number.
 
 ![confusion_matrix_tree_balanced](https://github.com/user-attachments/assets/b64a8484-2410-4632-9272-06afb0023c69)
 
-Fig. 7. Confusion Matrix of a Decision Tree Classification After
-Using SMOTE on the Dataset
+*Fig. 7. Confusion Matrix of a Decision Tree Classification After Using SMOTE on the Dataset*
 5
 TABLE III
 Evaluation of Decision Tree Classification After SMOT
@@ -117,7 +116,8 @@ F1-score: 0.49165
 
 ![curve_tree](https://github.com/user-attachments/assets/bd713af4-6462-4a75-88a6-0cbe9e033d46)
 
-Fig. 8. Precision Recall Curve of Decision Tree Classifier
+*Fig. 8. Precision Recall Curve of Decision Tree Classifier*
+
 Because the goal is to detect fraudulent transactions with
 great accuracy, searching for a model with better results
 became necessary. The model selected was a Random
@@ -129,8 +129,8 @@ greatest accuracy and lowest error.
 
 ![confusion_matrix_forest_balanced](https://github.com/user-attachments/assets/4ada521e-8051-44d0-9084-de1f82c47ff6)
 
-Fig. 9. Confusion Matrix of a Random Forest Classification After
-Using SMOTE on the Dataset
+*Fig. 9. Confusion Matrix of a Random Forest Classification After Using SMOTE on the Dataset*
+
 With only 16 False Negatives and 21 False Positives,
 Random Forest Classification beats Decision Trees and
 Logistic Regression without sacrificing accuracy. 
